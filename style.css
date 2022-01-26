@@ -38,3 +38,16 @@ h2{
 .educacao{
     background-color: var(--mostarda);
 }
+
+a:link{
+    color: var(--caramelo);
+    text-decoration: none;
+}
+
+footer .conteudo{
+    text-align: center;
+}
+
+.icons-footer span{
+    padding: 0 10px;
+}
