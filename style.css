@@ -1,0 +1,40 @@
+:root{
+    --azul: #274B59;
+    --mostarda: #D98D30;
+    --bege: #F2D5C4;
+    --caramelo: #BF5934;
+    --vinho: #8C2A2A;
+}
+
+body{
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 100;
+    margin: 0;
+}
+
+header, footer{
+    background-color: var(--azul);
+    color: var(--bege);
+}
+
+main{
+    background-color: var(--bege);
+}
+
+h1, h2, h3{
+    font-weight: 400;
+}
+
+h2{
+    margin-top: 0;
+}
+
+.conteudo{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.educacao{
+    background-color: var(--mostarda);
+}
