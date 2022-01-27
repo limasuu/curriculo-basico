@@ -66,3 +66,13 @@ footer .conteudo{
     float: right;
     margin: 10px 35% 0 0;
 }
+
+.social-icons i{
+    padding: 25px;
+    transition: .4s;
+}
+
+.social-icons i:hover{
+    color: var(--caramelo);
+    transition: .4s;
+}
