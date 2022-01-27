@@ -3,7 +3,6 @@
     --mostarda: #D98D30;
     --bege: #F2D5C4;
     --caramelo: #BF5934;
-    --vinho: #8C2A2A;
 }
 
 body{
@@ -15,6 +14,7 @@ body{
 header, footer{
     background-color: var(--azul);
     color: var(--bege);
+    overflow: auto;
 }
 
 main{
@@ -25,7 +25,11 @@ h1, h2, h3{
     font-weight: 400;
 }
 
-h2{
+h1, h2{
+    margin-bottom: 0;
+}
+
+h2, p{
     margin-top: 0;
 }
 
@@ -50,4 +54,15 @@ footer .conteudo{
 
 .icons-footer span{
     padding: 0 10px;
+}
+
+.img-header{
+    float: left;
+    padding-bottom: 25px;
+    border-radius: 50%;
+}
+
+.text-header{
+    float: right;
+    margin: 10px 35% 0 0;
 }
