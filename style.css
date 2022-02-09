@@ -43,11 +43,6 @@ h2, p{
     background-color: var(--mostarda);
 }
 
-a:link{
-    color: var(--caramelo);
-    text-decoration: none;
-}
-
 footer .conteudo{
     text-align: center;
 }
@@ -67,12 +62,13 @@ footer .conteudo{
     margin: 10px 35% 0 0;
 }
 
-.social-icons i{
+.social-icons a{
     padding: 25px;
     transition: .4s;
+    color: var(--bege);
 }
 
-.social-icons i:hover{
+.social-icons a:hover{
     color: var(--caramelo);
     transition: .4s;
 }
