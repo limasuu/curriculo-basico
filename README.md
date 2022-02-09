@@ -9,6 +9,6 @@ Acompanhando o passo a passo de uma [revisão](https://youtube.com/playlist?list
 - CSS3
 
 ## :art: Layout
-![layout1](img/layout1.png)
-![layout2](img/layout2.png)
+![layout1](layout1.png)
+![layout2](layout2.png)
 
