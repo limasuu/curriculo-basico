@@ -11,4 +11,5 @@ Acompanhando o passo a passo de uma [revisão](https://youtube.com/playlist?list
 ## :art: Layout
 ![layout1](layout1.png)
 ![layout2](layout2.png)
+![responsivo](responsivo.png)
 

@@ -44,7 +44,7 @@ h2, p{
 }
 
 main img{
-    max-width: 100%;   
+    width: 100%;   
 }
 
 footer .conteudo{
@@ -75,4 +75,30 @@ footer .conteudo{
 .social-icons a:hover{
     color: var(--caramelo);
     transition: .4s;
+}
+
+@media only screen and (max-width: 930px){
+    .img-header{
+        display: none;
+        visibility: hidden;
+    }
+    header{
+        font-size: 1.5rem;
+    }
+    .text-header{
+        float: none;
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 460px){
+    
+    header{
+        font-size: 1rem;
+    }
+
+    .social-icons a{
+        padding: 15px;
+    }
 }
