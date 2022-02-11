@@ -43,6 +43,10 @@ h2, p{
     background-color: var(--mostarda);
 }
 
+main img{
+    max-width: 100%;   
+}
+
 footer .conteudo{
     text-align: center;
 }
